@@ -31,18 +31,22 @@ Usuários devem ser capaz de ver:
 ### Links
 
 - Solution URL: [Vercel](https://your-solution-url.com)
-- Live Site URL: [Github](https://your-live-site-url.com)
+- Live Site URL: [Github](https://github.com/rialbeg/advice-generatora-app-react)
 
 ### Como rodar
+
 Depois de clonar o repositório basta executar os seguintes comandos:
 
 Se você usa yarn
+
 ```javascript
-   yarn install && yarn start 
+   yarn install && yarn start
 ```
+
 ou se usa npm
+
 ```javascript
-  npm install && npm start 
+  npm install && npm start
 ```
 
 ## Meu processo
