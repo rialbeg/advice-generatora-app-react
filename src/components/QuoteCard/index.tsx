@@ -40,18 +40,20 @@ export function QuoteCard() {
     getData();
   }, []);
   return (
-    <Container>
-      {advice?.adviceQuote?.length > 0 && (
-        <Content>
-          <h1 className="title">ADVICE #{advice.id}</h1>
-          <p className="quote">"{advice.adviceQuote}"</p>
-          <img className="divider" src={dividerImg} alt="divider" />
-          <div className="dice" onClick={handleDiceClick}>
-            <img src={diceImg} alt="dice" />
-          </div>
-        </Content>
-      )}
-      {!removeLoading && <Loading />}
-    </Container>
+    <>
+      <Container>
+        {advice?.adviceQuote?.length > 0 && (
+          <Content>
+            <h1 className="title">ADVICE #{advice.id}</h1>
+            <p className="quote">"{advice.adviceQuote}"</p>
+            <img className="divider" src={dividerImg} alt="divider" />
+            <div className="dice" onClick={handleDiceClick}>
+              <img src={diceImg} alt="dice" />
+            </div>
+          </Content>
+        )}
+        {!removeLoading && <Loading />}
+      </Container>
+    </>
   );
 }
