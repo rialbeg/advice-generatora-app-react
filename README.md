@@ -64,7 +64,7 @@ ou se usa npm
 
 Consolidei os conhecimentos de css como posicionamento e estilização, e os conhecimentos básicos de react como criação e utilização de componentes, hooks como o useState e o useEffect.
 
-## Author
+## Autor
 
 - Website - [Gabriel Mascarenhas](https://rialbeg.github.io/portfolio/)
 - Frontend Mentor - [@rialbeg](https://www.frontendmentor.io/profile/rialbeg)
